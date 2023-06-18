@@ -1,0 +1,41 @@
+﻿  Engine.cpp
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Headers\Global.h(20,41): warning C4305: 'initializing': truncation from 'int' to 'const unsigned char'
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Headers\Global.h(20,38): warning C4309: 'initializing': truncation of constant value
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Headers\Global.h(21,42): warning C4305: 'initializing': truncation from 'int' to 'const unsigned char'
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Headers\Global.h(21,39): warning C4309: 'initializing': truncation of constant value
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Headers\Engine.h(97,3): warning C4091: 'static ': ignored on left of 'Engine::Game' when no variable is declared
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(38,105): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(39,105): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(62,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(240,84): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(323,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(454,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(486,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(724,62): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\type_traits(1574,98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\future(1468): message : see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>>*,int,int,int>(_Callable &&,_Ty1 &&,int &&,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),
+              _Ty1=std::vector<Enemy,std::allocator<Enemy>> *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\future(1474): message : see reference to function template instantiation 'void std::_Invoke_stored_explicit<void(__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>>*,int,int,int,0,1,2,3,4>(std::tuple<void (__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>> *,int,int,int> &&,std::integer_sequence<size_t,0,1,2,3,4>)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\future(1501): message : see reference to function template instantiation 'void std::_Invoke_stored<void(__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>>*,int,int,int>(std::tuple<void (__cdecl *)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>> *,int,int,int> &&)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\future(1501,1): message : while compiling class template member function 'void std::_Fake_no_copy_callable_adapter<void (__cdecl &)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>> *,int,int,int &>::operator ()(void)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\type_traits(1564,5): message : see reference to function template instantiation 'void std::_Fake_no_copy_callable_adapter<void (__cdecl &)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>> *,int,int,int &>::operator ()(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\future(1523): message : see reference to class template instantiation 'std::_Fake_no_copy_callable_adapter<void (__cdecl &)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>> *,int,int,int &>' being compiled
+D:\projekty\SpaceInvadersSFML\SpaceInvadersSFML\Engine.cpp(284,129): message : see reference to function template instantiation 'std::future<void> std::async<void(__cdecl &)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int),std::vector<Enemy,std::allocator<Enemy>>*,int,int,int&>(std::launch,_Fty,std::vector<Enemy,std::allocator<Enemy>> *&&,int &&,int &&,int &)' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Enemy,std::allocator<Enemy>> *,float,float,int)
+          ]
+  Generating code
+  4 of 2291 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SpaceInvadersSFML.vcxproj -> D:\projekty\SpaceInvadersSFML\x64\Release\SpaceInvadersSFML.exe
